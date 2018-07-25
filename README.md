@@ -20,6 +20,10 @@
   - Search through all available digit (domain of variable) for the next empty spot in the table.
   
   
+  **Naive approach is only checking the first empty spot in table if there is no value in its domain then it backtracks**
+  
+  **But with Forward Checking it checks the next empty spot after the first one, if the variable we had chosen for the first empty spot left us with no choice for the second blank spot then it backtracks**
+  
 <hr />
 
 ## Example
